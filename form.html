@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regestration form</title>
+</head>
+<body>
+    <h1>welcome to my blog</h1>
+    <h2>please fill the following requirements</h2>
+    <form action="post" method="submit">
+        <label for="name"> full name
+            <input type="text" id="name" name="user name" placeholder="enter your username">
+        </label>
+        <label for="father name">father name
+            <input type="text" id="father name" name="father name" placeholder="enter your father name">
+        </label>
+        <label for="age">age
+            <input type="text" id="age" name="age" placeholder="enter your age">
+        </label>
+        <label for="email">email address 
+          <input type="text" id="email" name="email" placeholder="enter your email">  
+        </label>
+        <label for="phone number"> phone number
+            <input type="text" id="phone number " name="phonr number" placeholder="enter your phonr number">
+        </label> 
+        <label for="passward"> passward
+            <input type="text" id="passward" name="passward" placeholder="enter your passward">
+        </label>
+        <h2>select your gender</h2>
+        <div>
+        <input type="radio" id="male" name="gender" value="male" >
+        <label for="male">male</label>
+        <input type="radio" id="female " name="gender" value="female">
+        <label for="female">female</label>
+        </div>
+        <h2>select your country</h2>
+        <div>
+            <select name="country" id="country"> 
+                <option value="pakistan">pakistan</option>
+                <option value="india">india</option>
+                <option value="america">america</option>
+                <option value="UAE">UAE</option>
+                <option value="china">china</option>
+                <option value="turky">turky</option>
+            </select>
+        </div>
+        <h2>select your relegion</h2>
+        <div>
+            <select name="relegion" id="relegion"> 
+                <option value="islam">islam</option>
+                <option value="hindu">hindu</option>
+                <option value="christian">christian</option>
+                <option value="sikh">sikh</option>
+            </select>
+        </div>
+        <h2>About me</h2>
+        <textarea name="about" id="about" rows="3" columns="40">enter about yourself</textarea>
+        <br> <button bgcolor="green" > submet</button>       <button bgcolor="red">reset</button>
+
+
+    </form>
+    
+</body>
+</html>
